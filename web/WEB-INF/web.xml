@@ -32,6 +32,10 @@
         <servlet-name>H</servlet-name>
         <servlet-class>controller.H</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>I</servlet-name>
+        <servlet-class>controller.I</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/A</url-pattern>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>H</servlet-name>
         <url-pattern>/H</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>I</servlet-name>
+        <url-pattern>/I</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
