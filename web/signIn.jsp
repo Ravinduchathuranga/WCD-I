@@ -15,6 +15,8 @@
         <h1>Sign In!</h1>
         <%
         System.out.println(application);
+        //exception don't give us any kind of error on compiler. but when it's comes to run time it's shows an error.
+        //System.out.println(exception);
         %>
     </body>
 </html>
