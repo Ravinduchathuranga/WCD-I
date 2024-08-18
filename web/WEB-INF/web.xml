@@ -16,6 +16,14 @@
         <servlet-name>D</servlet-name>
         <servlet-class>controller.D</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>E</servlet-name>
+        <servlet-class>controller.E</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>F</servlet-name>
+        <servlet-class>controller.F</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/A</url-pattern>
@@ -31,6 +39,14 @@
     <servlet-mapping>
         <servlet-name>D</servlet-name>
         <url-pattern>/D</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>E</servlet-name>
+        <url-pattern>/E</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>F</servlet-name>
+        <url-pattern>/F</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
