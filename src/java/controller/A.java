@@ -11,6 +11,7 @@ public class A extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //getParameter(String name)
         String name = req.getParameter("name");
         System.out.println(name);
         resp.getWriter().write("Thank you");
