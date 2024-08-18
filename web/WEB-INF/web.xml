@@ -8,6 +8,14 @@
         <servlet-name>B</servlet-name>
         <servlet-class>controller.B</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>C</servlet-name>
+        <servlet-class>controller.C</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>D</servlet-name>
+        <servlet-class>controller.D</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/A</url-pattern>
@@ -15,6 +23,14 @@
     <servlet-mapping>
         <servlet-name>B</servlet-name>
         <url-pattern>/B</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>C</servlet-name>
+        <url-pattern>/C</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>D</servlet-name>
+        <url-pattern>/D</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
