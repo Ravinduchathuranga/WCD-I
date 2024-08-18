@@ -4,9 +4,17 @@
         <servlet-name>A</servlet-name>
         <servlet-class>controller.A</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>B</servlet-name>
+        <servlet-class>controller.B</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/A</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>B</servlet-name>
+        <url-pattern>/B</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
