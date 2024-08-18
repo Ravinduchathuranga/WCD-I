@@ -16,6 +16,34 @@
         <servlet-name>D</servlet-name>
         <servlet-class>controller.D</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>E</servlet-name>
+        <servlet-class>controller.E</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>F</servlet-name>
+        <servlet-class>controller.F</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>G</servlet-name>
+        <servlet-class>controller.G</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>H</servlet-name>
+        <servlet-class>controller.H</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>I</servlet-name>
+        <servlet-class>controller.I</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>J</servlet-name>
+        <servlet-class>controller.J</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>K</servlet-name>
+        <servlet-class>controller.K</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/A</url-pattern>
@@ -31,6 +59,34 @@
     <servlet-mapping>
         <servlet-name>D</servlet-name>
         <url-pattern>/D</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>E</servlet-name>
+        <url-pattern>/E</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>F</servlet-name>
+        <url-pattern>/F</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>G</servlet-name>
+        <url-pattern>/G</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>H</servlet-name>
+        <url-pattern>/H</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>I</servlet-name>
+        <url-pattern>/I</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>J</servlet-name>
+        <url-pattern>/J</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>K</servlet-name>
+        <url-pattern>/K</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
