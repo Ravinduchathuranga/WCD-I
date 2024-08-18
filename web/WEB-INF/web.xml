@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>A</servlet-name>
+        <servlet-class>controller.A</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>B</servlet-name>
+        <servlet-class>controller.B</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>C</servlet-name>
+        <servlet-class>controller.C</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>D</servlet-name>
+        <servlet-class>controller.D</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>A</servlet-name>
+        <url-pattern>/A</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>B</servlet-name>
+        <url-pattern>/B</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>C</servlet-name>
+        <url-pattern>/C</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>D</servlet-name>
+        <url-pattern>/D</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
@@ -8,4 +40,8 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
 </web-app>
