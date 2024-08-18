@@ -14,7 +14,10 @@ public class A extends HttpServlet {
         //getParameter(String name)
         String name = req.getParameter("name");
         System.out.println(name);
-        resp.getWriter().write("Thank you");
+        
+        PrintWriter printWriter=resp.getWriter();
+        printWriter.write("Thank you");
+        //resp.getWriter().write("Thank you");
     }
 
 }
