@@ -13,8 +13,9 @@ public class F extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
-        System.out.println(session.getId());
+        for (Cookie c : request.getCookies()) {
+            response.getWriter().write(c.getName());
+        }
     }
 
 }
