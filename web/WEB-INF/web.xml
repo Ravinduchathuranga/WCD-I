@@ -49,8 +49,8 @@
         <servlet-class>controller.L</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>m</servlet-name>
-        <servlet-class>controller.m</servlet-class>
+        <servlet-name>M</servlet-name>
+        <servlet-class>controller.M</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
@@ -101,8 +101,8 @@
         <url-pattern>/L</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>m</servlet-name>
-        <url-pattern>/m</url-pattern>
+        <servlet-name>M</servlet-name>
+        <url-pattern>/M</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
@@ -116,4 +116,24 @@
         <error-code>404</error-code>
         <location>/error.jsp</location>
     </error-page>
+    <listener>
+        <listener-class>
+            model.scl
+        </listener-class>
+    </listener>
+    <listener>
+        <listener-class>
+            model.ssl
+        </listener-class>
+    </listener>
+    <listener>
+        <listener-class>
+        model.hsal
+        </listener-class>
+    </listener>
+    <listener>
+        <listener-class>
+            model.srl
+        </listener-class>
+    </listener>
 </web-app>

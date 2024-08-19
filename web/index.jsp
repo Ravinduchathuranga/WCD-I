@@ -13,5 +13,11 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <%
+        pageContext.getAttribute("x",pageContext.APPLICATION_SCOPE);
+        pageContext.getAttribute("x",pageContext.SESSION_SCOPE);
+        pageContext.getAttribute("x",pageContext.REQUEST_SCOPE);
+        pageContext.getAttribute("x",pageContext.PAGE_SCOPE);
+        %>
     </body>
 </html>
