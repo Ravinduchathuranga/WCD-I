@@ -16,8 +16,8 @@ public class K extends HttpServlet {
 //        HttpSession session=req.getSession();
 //        resp.getWriter().write(session.getAttribute("name").toString());
 
-//        ServletContext sccc = req.getServletContext();
-//        resp.getWriter().write(sccc.getAttribute("id").toString());
+        ServletContext sccc = req.getServletContext();
+        resp.getWriter().write(sccc.getAttribute("id").toString());
     }
 
 }
