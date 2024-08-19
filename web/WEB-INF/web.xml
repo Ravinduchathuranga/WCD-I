@@ -44,6 +44,14 @@
         <servlet-name>K</servlet-name>
         <servlet-class>controller.K</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>L</servlet-name>
+        <servlet-class>controller.L</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>M</servlet-name>
+        <servlet-class>controller.M</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/A</url-pattern>
@@ -88,6 +96,14 @@
         <servlet-name>K</servlet-name>
         <url-pattern>/K</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>L</servlet-name>
+        <url-pattern>/L</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>M</servlet-name>
+        <url-pattern>/M</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
@@ -100,4 +116,24 @@
         <error-code>404</error-code>
         <location>/error.jsp</location>
     </error-page>
+    <listener>
+        <listener-class>
+            model.scl
+        </listener-class>
+    </listener>
+    <listener>
+        <listener-class>
+            model.ssl
+        </listener-class>
+    </listener>
+    <listener>
+        <listener-class>
+            model.hsal
+        </listener-class>
+    </listener>
+    <listener>
+        <listener-class>
+            model.srl
+        </listener-class>
+    </listener>
 </web-app>

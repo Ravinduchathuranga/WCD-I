@@ -16,10 +16,9 @@ public class C extends HttpServlet {
         Cookie cookie = new Cookie("Ravindu", "Chathuranga");
         //set on response 
         response.addCookie(cookie);
-        cookie.setMaxAge(0);
-        
-
+        cookie.setMaxAge(-1);        
         response.getWriter().write("Hello page C");
+        
     }
 
 }

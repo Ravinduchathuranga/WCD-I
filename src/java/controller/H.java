@@ -13,10 +13,11 @@ public class H extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        //session.invalidate();
+        session.invalidate();
         
         //setMaxInactiveInterval parameter use secounds to destroy the session 
-        session.setMaxInactiveInterval(30);
+       // session.setMaxInactiveInterval(30);
+        
     }
 
 }

@@ -15,6 +15,7 @@ public class D extends HttpServlet {
         Cookie[] c = request.getCookies();
         for (Cookie cookie : c) {
             response.getWriter().write(cookie.getName());
+            response.getWriter().write(cookie.getValue());
         }
     }
 
