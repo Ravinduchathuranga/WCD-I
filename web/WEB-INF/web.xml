@@ -44,6 +44,14 @@
         <servlet-name>K</servlet-name>
         <servlet-class>controller.K</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>L</servlet-name>
+        <servlet-class>controller.L</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>m</servlet-name>
+        <servlet-class>controller.m</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/A</url-pattern>
@@ -87,6 +95,14 @@
     <servlet-mapping>
         <servlet-name>K</servlet-name>
         <url-pattern>/K</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>L</servlet-name>
+        <url-pattern>/L</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>m</servlet-name>
+        <url-pattern>/m</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
